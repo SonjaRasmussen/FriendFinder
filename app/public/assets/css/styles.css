@@ -21,3 +21,17 @@ img {
     height: 50%;
     width: 50%;
  }
+
+ .jumbotron{
+     text-align: center;
+ }
+
+ button {
+    color: #20d0ca;
+    background-color: #FFD166;
+    border-color: #FFD166;
+ } 
+
+ a {
+    color: #06D6A0;
+ }

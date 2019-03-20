@@ -47,7 +47,7 @@ var friends = [
 			"5",
 			"1"		
 		]
-    }
+    },
     {
 		name: "Maria Redbot",
 		photo: "assets/images/robot",
