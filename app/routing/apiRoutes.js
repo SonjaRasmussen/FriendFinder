@@ -26,7 +26,7 @@ module.exports = function(app){
 
         //loop through friends data array to get each score
 
-        for (var j = 0; j < friends.length -1; i++){
+        for (var j = 0; j < friends.length; j++){
             console.log(friends[j].name);
             totalDifference = 0;
         
