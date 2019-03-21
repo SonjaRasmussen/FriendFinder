@@ -2,7 +2,7 @@ var friends = [
 	
 	{
 		name: "Harold Price",
-		photo: "assets/images/sleeping_baby",
+		photo: "assets/images/sleeping_baby.jpg",
 		scores: [
 			"2",
 			"1",
@@ -18,7 +18,7 @@ var friends = [
 	},
 	{
 		name: "Vlad Smith",
-		photo: "assets/images/donkey",
+		photo: "assets/images/donkey.jpg",
 		scores: [
 			"5",
 			"2",
@@ -34,8 +34,8 @@ var friends = [
 	},
 	{
 		name: "Stormy Waters",
-		photo: "assets/images/tornado",
 		score: [
+		photo: "assets/images/tornado.jpg",
 			"1",
 			"1",
 			"5",
@@ -50,8 +50,8 @@ var friends = [
     },
     {
 		name: "Maria Redbot",
-		photo: "assets/images/robot",
 		score: [
+		photo: "assets/images/robot.jpg",
 			"5",
 			"1",
 			"5",
