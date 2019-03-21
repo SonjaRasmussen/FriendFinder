@@ -34,8 +34,8 @@ var friends = [
 	},
 	{
 		name: "Stormy Waters",
-		score: [
 		photo: "assets/images/tornado.jpg",
+		scores: [
 			"1",
 			"1",
 			"5",
@@ -50,8 +50,8 @@ var friends = [
     },
     {
 		name: "Maria Redbot",
-		score: [
 		photo: "assets/images/robot.jpg",
+		scores: [
 			"5",
 			"1",
 			"5",
