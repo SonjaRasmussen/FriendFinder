@@ -20,7 +20,6 @@ module.exports = function(app){
         var userName = userData.name;
         var userPhoto = userData.photo;
 
-        var totalDifference = 0;
 
 
 
@@ -28,20 +27,20 @@ module.exports = function(app){
 
         for (var j = 0; j < friends.length; j++){
             console.log(friends[j].name);
-            totalDifference = 0;
+            var totalDifference = 0;
         
 
         //loop through friends score and the user score to calculate the absolute difference between the two 
 
         for (var i = 0; i < 10; i++){
-            totalDifference += Math.abs(parseInt(userScores[j]) - parseInt(friends[j].scores[j]));
+            totalDifference += Math.abs(parseInt(userScores[i]) - parseInt(friends[j].scores[i]));
+        }
 
             if (totalDifference <= bestMatch.friendMatch){
 
                 bestMatch.name = friends[j].name;
                 bestMatch.photo = friends[j].photo;
                 bestMatch.friendMatch = totalDifference;
-            }
         }
     }
             friends.push(userData);
