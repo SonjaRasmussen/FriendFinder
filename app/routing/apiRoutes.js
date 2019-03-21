@@ -36,11 +36,11 @@ module.exports = function(app){
             totalDifference += Math.abs(parseInt(userScores[i]) - parseInt(friends[j].scores[i]));
         }
 
-            if (totalDifference <= bestMatch.friendMatch){
+        if (totalDifference < bestMatch.friendMatch){
 
-                bestMatch.name = friends[j].name;
-                bestMatch.photo = friends[j].photo;
-                bestMatch.friendMatch = totalDifference;
+            bestMatch.name = friends[j].name;
+            bestMatch.photo = friends[j].photo;
+            bestMatch.friendMatch = totalDifference;
         }
     }
             friends.push(userData);
