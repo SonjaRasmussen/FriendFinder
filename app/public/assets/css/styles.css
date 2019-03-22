@@ -1,20 +1,28 @@
+h1{
+    font-family: 'Asap', sans-serif;
+    color: #073B4C;
+    text-align: center;
+}
+
 h2 {
     
     font-family: 'Asap', sans-serif;
     color: #118AB2;
     font-size: 32px;
+    text-align: center;
 }
 
 
 h3 {
-    color: #118AB2;
+    color: #118AB2 !important;
     font-family: 'Asap', sans-serif;
-    font-size: 22px;
+    font-size: 18px !important;
 }
 
 h4 {
     font-family: 'Assistant', sans-serif;
      color: #073B4C;
+     font-size: 16px !important;
 }
 
 img {
@@ -26,12 +34,32 @@ img {
      text-align: center;
  }
 
- button {
-    color: #20d0ca;
-    background-color: #FFD166;
-    border-color: #FFD166;
- } 
+ .btn-primary {
+    color: #fff;
+    background-color:#FFD166 !important;
+    border-color: #FFD166 !important;
+}
 
  a {
     color: #06D6A0;
  }
+
+ .form-control {
+    display: block;
+    width: 100% !important;
+    height: calc(1.0em + .5rem + 2px) !important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 200 important!;
+    line-height: 1.0;
+    color: #073B4C;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.row{
+    padding: 10px;
+}

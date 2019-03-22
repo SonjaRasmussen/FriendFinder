@@ -39,27 +39,42 @@
 <body>
 
     <div class="container">
+        <div class="container-fluid" id="top"> 
+       
 
-        <h2>Survey Questions</h2>
+        <h1>Survey Questions</h1>
         <hr>
 
-        <h3>
+        <h2>
             <strong>About You</strong>
-        </h3>
-        <h4>Name (Required)</h4>
-        <input type="text" id="name" class="form-control" required>
+        </h2>
         
-        <br>
+        <div class="row"> 
+            <div class="col-2"> </div>
+      
+        <div class="col-8">  <h4>Name (Required)</h4>
+        <input type="text" id="name" class="form-control" required> </div>
+       <div class="col-2"></div>
+    </div>
+    
+     <div class="row">
+        <div class="col-2"></div>
+    
 
-        <h4>Link to Photo Image (Required)</h4>
-        <input type="text" id="photo" class="form-control" required>
-
+       <div class="col-8"> <h4>Link to Photo Image (Required)</h4>
+        <input type="text" id="photo" class="form-control" required></div> 
+        <div class="col-2"></div>
         <hr>
-
+        </div>
+        </div>
+           
+<div class="container-fluid">
+    <div class="row"> 
+        <div class="col"> 
         <h3>
             <strong>Question 1</strong>
         </h3>
-        <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+        <h4>Walks on the beach are for stray dogs and are not romantic.</h4>
         <select class="chosen-select" id="q1">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -68,11 +83,14 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-<br><br>
+    </div>
+    
+
+        <div class="col"> 
         <h3>
             <strong>Question 2</strong>
         </h3>
-        <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+        <h4>You learn from experiences not from advice or reading.</h4>
         <select class="chosen-select" id="q2">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -81,12 +99,17 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+    </div>
+    </div>
 
-        <br><br>
+
+       
+    <div class="row"> 
+        <div class="col"> 
         <h3>
             <strong>Question 3</strong>
         </h3>
-        <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+        <h4>Under pressure you are like a kernel of popcorn exposed to heat. (ready to pop at any moment)</h4>
         <select class="chosen-select" id="q3">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -95,12 +118,13 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+    </div>
         <br><br>
-
+        <div class="col"> 
         <h3>
             <strong>Question 4</strong>
         </h3>
-        <h4>You rarely do something just out of sheer curiosity.</h4>
+        <h4>You prefer to eat a bag of Oreos or ceral for dinner because you hate doing dishes.</h4>
         <select class="chosen-select" id="q4">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -109,12 +133,16 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+    </div>
         <br><br>
+    </div>
 
+    <div class="row">  
+        <div class="col"> 
         <h3>
             <strong>Question 5</strong>
         </h3>
-        <h4>People can rarely upset you.</h4>
+        <h4>People can rarely upset you, unless they do or say something that you wouldn't do or say yourself.</h4>
         <select class="chosen-select" id="q5">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -123,12 +151,14 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
+        </div>
 
-        <br><br>
+       
+        <div class="col"> 
         <h3>
             <strong>Question 6</strong>
         </h3>
-        <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+        <h4>It is often difficult for you to relate to other people’s feelings because you're always right and know what is best.</h4>
         <select class="chosen-select" id="q6">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -137,12 +167,16 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        <br><br>
+        </div>
 
+    </div>
+       
+    <div class="row">
+        <div class="col"> 
         <h3>
             <strong>Question 7</strong>
         </h3>
-        <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+        <h4>In a discussion, you usually try to convince pepole why you are right, rather than listening to other peoples points of view.</h4>
         <select class="chosen-select" id="q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -151,11 +185,13 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        <br><br>
+        </div>
+      
+        <div class="col"> 
         <h3>
             <strong>Question 8</strong>
         </h3>
-        <h4>You rarely get carried away by fantasies and ideas.</h4>
+        <h4>You rarely get carried away by fantasies and ideas. You require plans, backup plans and lots of research.</h4>
         <select class="chosen-select" id="q8">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -164,11 +200,16 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        <br><br>
+        </div>
+    </div>
+       
+    <div class="row">
+        <div class="col"> 
+    
         <h3>
             <strong>Question 9</strong>
         </h3>
-        <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+        <h4>You think books are for coffee tables and to prop up your ipad when you can't find the case and you want to binge watch Married at First Sight.</h4>
         <select class="chosen-select" id="q9">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -177,11 +218,13 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        <br><br>
+        </div>
+       
+        <div class="col"> 
         <h3>
             <strong>Question 10</strong>
         </h3>
-        <h4>You feel more energetic after spending time with a group of people.</h4>
+        <h4>Your more likely to buy a Land Rover not becuase you drive in the snow or have a bunch of kids but you like the way it looks.  </h4>
         <select class="chosen-select" id="q10">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
@@ -190,7 +233,10 @@
             <option value="4">4</option>
             <option value="5">5 (Strongly Agree)</option>
         </select>
-        
+        </div>
+    </div>
+  
+    </div class="container">   
         <br>
         <br>
 
