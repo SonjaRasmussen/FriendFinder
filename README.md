@@ -7,7 +7,7 @@ Are you looking for :hearts: or a :couple:?  Take this 10 question survey to fin
 
 
 
-#####Local Installation: 
+##### Local Installation: 
 
 
 * git clone https://github.com/SonjaRasmussen/FriendFinder.git 
@@ -15,7 +15,7 @@ Are you looking for :hearts: or a :couple:?  Take this 10 question survey to fin
 * cd FriendFinder
 * npm install
 
-#####Running Locally
+##### Running Locally
 To run the application locally and access it in your browser, set the PORT environment variable to the value of your choice. 
 
 
@@ -32,5 +32,5 @@ To run the application locally and access it in your browser, set the PORT envir
 
 
 
-####Technologies Used:
+#### Technologies Used:
 HTML, CSS, Bootstrap, JavaScript, Express, Node.js.
